@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace MVCDemo.Models
+﻿namespace MVCDemo.Models
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Student
     {
         public int ID { get; set; }

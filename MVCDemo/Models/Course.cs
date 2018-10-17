@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace MVCDemo.Models
+﻿namespace MVCDemo.Models
 {
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations.Schema;
+
     public class Course
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
